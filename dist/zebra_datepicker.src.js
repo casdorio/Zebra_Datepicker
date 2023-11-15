@@ -1820,7 +1820,7 @@
                     });
 
                     // whenever anything is clicked on the page
-                    $(document).on('mousedown.Zebra_DatePicker_' + uniqueid + ' touchend.Zebra_DatePicker_' + uniqueid, function(e) {
+                    $(document).on('mousedown.Zebra_DatePicker_' + uniqueid, function(e) {
 
                         // if this happened on a touch-enabled device and it represents the end of finger movement instead of a tap
                         // set the "touchmove" flag to FALSE and don't go further
